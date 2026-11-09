@@ -276,7 +276,7 @@ pa.preload = 'auto';
 var speeds = {};
 var focusKey = null;
 var focusCount = {};
-function phraseSrc(i, j) { return 'phrases/s' + i + '-p' + j + '.mp3'; }
+function phraseSrc(i, j) { return 's' + i + '-p' + j + '.mp3'; }
 function markFocus(k) {
   document.querySelectorAll('li.focus').forEach(function(li) { li.classList.remove('focus'); });
   document.querySelectorAll('button.rpt.on').forEach(function(b) { b.classList.remove('on'); b.textContent = '🔁 One · 单句'; });
